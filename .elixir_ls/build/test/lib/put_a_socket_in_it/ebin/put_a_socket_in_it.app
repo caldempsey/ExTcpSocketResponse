@@ -1,0 +1,10 @@
+{application,put_a_socket_in_it,
+             [{applications,[kernel,stdlib,elixir,logger]},
+              {description,"put_a_socket_in_it"},
+              {modules,['Elixir.BinaryOperations','Elixir.PutASocketInIt',
+                        'Elixir.TcpServer',
+                        'Elixir.TcpServer.ConnectionStrategy',
+                        'Elixir.TcpServer.Response']},
+              {registered,[]},
+              {vsn,"0.1.0"},
+              {mod,{'Elixir.PutASocketInIt',[]}}]}.
